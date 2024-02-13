@@ -1,0 +1,79 @@
+.root {
+  border-left: 5px solid lightgray;
+
+}
+
+.body {
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  align-self: center;
+  margin:auto
+}
+
+header, main, footer{
+  padding: 1rem 2rem;
+}
+
+.main-title{
+  color: tomato;
+  font-size: 50px;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  padding:0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top-nav a{
+  color: lightgray;
+}
+
+.footer-nav a{
+  color: tomato;
+}
+
+ subtitle{
+  font-size: 30px;
+}    
+
+.continue-link{
+  float: right;
+  font-weight: bold;
+  color: tomato;
+}
+
+.article{
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.article p::first-letter{
+  color:lightgray;
+  font-size: 80px;
+  float:left;
+  margin-right: 15px;
+}
+
+footer p{
+  color:lightgrey;
+}
+
+time{
+  font-size: 25px;
+  color: lightgray;
+}
+
+p{
+  color: darkgray;
+  font-size: 20px;
+  line-height: 1.5;
+}
